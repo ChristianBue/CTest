@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitHubOrganization": "ChristianBue",
+    "baseName": "CTest",
+    "packageName": "com.gs.ctest",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": "true",
+    "messageBroker": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "useSass": false,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [
+      "cucumber",
+      "protractor"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhipsterVersion": "4.13.3",
+    "packageFolder": "com/gs/ctest",
+    "jwtSecretKey": "fbfdb4d1cd625bb89fa326775cd4978c63a4675f",
+    "jhiPrefix": "jhi"
+  }
+}
